@@ -34,3 +34,7 @@ and later. If you need to use an earlier kernel, raise an issue on this repo.
 
 Larry Finger
 
+Enable follow config:
+CONFIG_BT_HCIBTSDIO=y
+CONFIG_BT_HCIUART=y
+CONFIG_BT_HCIUART_3WIRE=y
